@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="ai_agent_assets" name="AI Agent Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/ai_odoo_agent/static/src/js/ai_agent.js"/>
+        </xpath>
+    </template>
+</odoo> 

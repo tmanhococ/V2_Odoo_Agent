@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ai_agent_wizard_user,ai.agent.wizard.user,model_ai_agent_wizard,base.group_user,1,1,1,0
+access_ai_agent_config_user,ai.agent.config.user,model_ai_agent_config,base.group_user,1,0,0,0
+access_ai_agent_config_manager,ai.agent.config.manager,model_ai_agent_config,base.group_system,1,1,1,1 

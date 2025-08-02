@@ -1,0 +1,31 @@
+# Fast-Agent Configuration for Odoo AI Agent
+model: "anthropic/claude-3-sonnet-20240229"
+anthropic:
+  api_key: "${ANTHROPIC_API_KEY}"
+
+mcpServers:
+  odoo_server:
+    url: "http://127.0.0.1:8000"
+    # Alternative: command mode for development
+    # command: "python"
+    # args: ["-m", "ai_odoo_agent.mcp_server.odoo_mcp_server"]
+
+# Agent configuration
+agent:
+  name: "Odoo AI Assistant"
+  instruction: |
+    You are OdooBot, an AI assistant integrated with Odoo ERP (Sales & CRM).
+    You have access to tools to query and modify business data.
+    
+    Your capabilities:
+    - Search and retrieve customer information
+    - Create and update leads and opportunities
+    - Manage sales orders and quotations
+    - Provide sales analytics and reports
+    
+    IMPORTANT GUIDELINES:
+    1. Always ask for user confirmation before performing any data modification
+    2. Be concise and helpful in your responses
+    3. Use available tools to fetch up-to-date information
+    4. Provide clear explanations for your actions
+    5. If you're unsure about something, ask for clarification 

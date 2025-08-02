@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- AI Agent Wizard Form View -->
+    <record id="view_ai_agent_wizard_form" model="ir.ui.view">
+        <field name="name">ai.agent.wizard.form</field>
+        <field name="model">ai.agent.wizard</field>
+        <field name="arch" type="xml">
+            <form string="AI Assistant" class="oe_form_box_info">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    
+                    <group>
+                        <group string="Conversation">
+                            <field name="conversation_log" widget="text" nolabel="1" 
+                                   style="height: 300px; font-family: monospace; font-size: 12px;"
+                                   readonly="1"/>
+                        </group>
+                    </group>
+                    
+                    <group>
+                        <group string="Your Message">
+                            <field name="user_input" placeholder="Type your question or command here..." 
+                                   nolabel="1" style="width: 100%;"/>
+                            <button name="action_send" string="Send" type="object" 
+                                    class="btn-primary" icon="fa-send"/>
+                            <button name="action_clear_conversation" string="Clear" type="object" 
+                                    class="btn-secondary" icon="fa-trash"/>
+                        </group>
+                    </group>
+                    
+                    <group>
+                        <group string="Assistant Response">
+                            <field name="assistant_response" widget="text" nolabel="1" 
+                                   style="height: 150px; font-family: monospace; font-size: 12px;"
+                                   readonly="1"/>
+                        </group>
+                    </group>
+                    
+                    <group>
+                        <field name="is_processing" invisible="1"/>
+                        <div class="text-center" attrs="{'invisible': [('is_processing', '=', False)]}">
+                            <i class="fa fa-spinner fa-spin fa-2x"></i>
+                            <p>Processing your request...</p>
+                        </div>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <!-- AI Agent Wizard Action -->
+    <record id="action_ai_assistant" model="ir.actions.act_window">
+        <field name="name">AI Assistant</field>
+        <field name="res_model">ai.agent.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_name': 'AI Assistant'}</field>
+    </record>
+    
+    <!-- AI Agent Configuration Form View -->
+    <record id="view_ai_agent_config_form" model="ir.ui.view">
+        <field name="name">ai.agent.config.form</field>
+        <field name="model">ai.agent.config</field>
+        <field name="arch" type="xml">
+            <form string="AI Agent Configuration">
+                <sheet>
+                    <group>
+                        <group string="Basic Settings">
+                            <field name="name"/>
+                            <field name="is_active"/>
+                        </group>
+                        <group string="API Configuration">
+                            <field name="anthropic_api_key" password="True"/>
+                            <field name="mcp_server_url"/>
+                        </group>
+                    </group>
+                    
+                    <group>
+                        <button name="action_test_connection" string="Test Connection" 
+                                type="object" class="btn-primary" icon="fa-plug"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <!-- AI Agent Configuration Tree View -->
+    <record id="view_ai_agent_config_tree" model="ir.ui.view">
+        <field name="name">ai.agent.config.tree</field>
+        <field name="model">ai.agent.config</field>
+        <field name="arch" type="xml">
+            <tree string="AI Agent Configurations">
+                <field name="name"/>
+                <field name="mcp_server_url"/>
+                <field name="is_active"/>
+            </tree>
+        </field>
+    </record>
+    
+    <!-- AI Agent Configuration Action -->
+    <record id="action_ai_agent_config" model="ir.actions.act_window">
+        <field name="name">AI Agent Configuration</field>
+        <field name="res_model">ai.agent.config</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <!-- Menu Items -->
+    <menuitem id="menu_ai_assistant_root" 
+              name="AI Assistant" 
+              parent="base.menu_custom" 
+              sequence="100"/>
+    
+    <menuitem id="menu_ai_assistant" 
+              name="Chat with AI" 
+              parent="menu_ai_assistant_root" 
+              action="action_ai_assistant" 
+              sequence="10"/>
+    
+    <menuitem id="menu_ai_agent_config" 
+              name="Configuration" 
+              parent="menu_ai_assistant_root" 
+              action="action_ai_agent_config" 
+              sequence="20"/>
+</odoo> 

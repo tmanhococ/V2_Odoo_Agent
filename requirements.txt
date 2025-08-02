@@ -1,0 +1,5 @@
+# AI Agent Dependencies
+mcp>=1.0.0
+fast-agent-mcp>=0.1.0
+httpx>=0.24.0
+asyncio 
