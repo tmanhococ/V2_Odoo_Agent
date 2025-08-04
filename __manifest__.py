@@ -17,6 +17,7 @@
     'website': 'https://github.com/your-repo/ai-odoo-agent',
     'depends': [
         'base',
+        'web',  # Thêm dependency này
         'sale_management',
         'crm',
         'contacts',
@@ -25,13 +26,14 @@
     'data': [
         'security/ir.model.access.csv',
         'views/ai_agent_views.xml',
-        'views/templates.xml',
+        #'views/templates.xml',
+        'views/ai_agent_widget_templates.xml'
     ],
     'assets': {
-        'web.assets_backend': [
-            'ai_odoo_agent/static/src/js/ai_agent.js',
-        ],
-    },
+       'web.assets_backend': [
+           'ai_odoo_agent/static/src/js/ai_agent.js',
+       ],
+   },
     'external_dependencies': {
         'python': [
             'mcp',
@@ -46,4 +48,4 @@
     'application': True,
     'auto_install': False,
     'license': 'LGPL-3',
-} 
+}

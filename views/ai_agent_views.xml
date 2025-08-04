@@ -24,9 +24,9 @@
                     <group>
                         <group string="Your Message">
                             <field name="user_input" placeholder="Type your question or command here..." 
-                                   nolabel="1" style="width: 100%;"/>
+                                   nolabel="1" style="width: 100%;" readonly="is_processing"/>
                             <button name="action_send" string="Send" type="object" 
-                                    class="btn-primary" icon="fa-send"/>
+                                    class="btn-primary" icon="fa-send" readonly="is_processing"/>
                             <button name="action_clear_conversation" string="Clear" type="object" 
                                     class="btn-secondary" icon="fa-trash"/>
                         </group>
@@ -42,7 +42,7 @@
                     
                     <group>
                         <field name="is_processing" invisible="1"/>
-                        <div class="text-center" attrs="{'invisible': [('is_processing', '=', False)]}">
+                        <div class="text-center" invisible="not is_processing">
                             <i class="fa fa-spinner fa-spin fa-2x"></i>
                             <p>Processing your request...</p>
                         </div>
@@ -125,4 +125,4 @@
               parent="menu_ai_assistant_root" 
               action="action_ai_agent_config" 
               sequence="20"/>
-</odoo> 
+</odoo>

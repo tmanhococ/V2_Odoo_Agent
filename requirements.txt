@@ -1,5 +1,8 @@
 # AI Agent Dependencies
-mcp>=1.0.0
+mcp>=1.12.1
 fast-agent-mcp>=0.1.0
 httpx>=0.24.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+psutil>=5.8.0
 asyncio 

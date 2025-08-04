@@ -1,0 +1,379 @@
+2025-08-02 14:56:02,872 - __main__ - INFO - ============================================================
+2025-08-02 14:56:02,878 - __main__ - INFO - ============================================================
+2025-08-02 14:56:15,924 - __main__ - INFO - ============================================================
+2025-08-02 14:56:15,929 - __main__ - INFO - ============================================================
+2025-08-02 14:56:15,943 - __main__ - INFO - 
+2025-08-02 14:56:15,952 - __main__ - INFO - 
+2025-08-02 14:56:15,959 - __main__ - INFO - 
+2025-08-02 14:56:15,960 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-02 14:56:15,960 - __main__ - INFO -    2. Login to Odoo
+2025-08-02 14:56:15,962 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-02 14:56:15,962 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-02 14:56:15,962 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-02 14:56:15,962 - __main__ - INFO - 
+2025-08-02 14:56:15,967 - __main__ - INFO - ============================================================
+2025-08-02 14:57:43,144 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 14:57:43,158 - __main__ - INFO - Stopping Odoo...
+2025-08-02 14:57:43,188 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 14:57:43,191 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:01:42,982 - __main__ - INFO - AI Odoo Agent System Launcher
+2025-08-02 15:01:42,982 - __main__ - INFO - ============================================================
+2025-08-02 15:01:42,982 - __main__ - INFO - Python Version: 3.12.0
+2025-08-02 15:01:42,983 - __main__ - INFO - Working Directory: D:\ERPProject\odoo17\addons\ai_odoo_agent
+2025-08-02 15:01:42,983 - __main__ - INFO - Starting AI Odoo Agent System...
+2025-08-02 15:01:42,983 - __main__ - INFO - ============================================================
+2025-08-02 15:01:42,983 - __main__ - INFO - Step 1: Starting MCP Server...
+2025-08-02 15:01:42,984 - __main__ - INFO - Starting MCP Server (stdio transport)...
+2025-08-02 15:01:45,992 - __main__ - INFO - MCP Server started successfully (stdio transport)
+2025-08-02 15:01:45,992 - __main__ - INFO - Step 2: Starting Odoo Server...
+2025-08-02 15:01:45,992 - __main__ - INFO - Starting Odoo Server...
+2025-08-02 15:01:46,006 - __main__ - INFO - Waiting for Odoo to start...
+2025-08-02 15:01:56,009 - __main__ - INFO - Odoo Server started successfully
+2025-08-02 15:01:56,010 - __main__ - INFO - ============================================================
+2025-08-02 15:01:56,011 - __main__ - INFO - AI Odoo Agent System Started Successfully!
+2025-08-02 15:01:56,011 - __main__ - INFO - ============================================================
+2025-08-02 15:01:56,011 - __main__ - INFO - System Status:
+2025-08-02 15:01:56,012 - __main__ - INFO -    MCP Server: Running on stdio transport
+2025-08-02 15:01:56,012 - __main__ - INFO -    Odoo Server: Running on http://localhost:8069
+2025-08-02 15:01:56,012 - __main__ - INFO - 
+2025-08-02 15:01:56,013 - __main__ - INFO - Access Information:
+2025-08-02 15:01:56,013 - __main__ - INFO -    Odoo Web Interface: http://localhost:8069
+2025-08-02 15:01:56,014 - __main__ - INFO -    AI Assistant: Available in Odoo menu
+2025-08-02 15:01:56,014 - __main__ - INFO -    MCP Server: Running in background
+2025-08-02 15:01:56,015 - __main__ - INFO - 
+2025-08-02 15:01:56,015 - __main__ - INFO - Configuration:
+2025-08-02 15:01:56,015 - __main__ - INFO -    Module Location: odoo17/addons/ai_odoo_agent
+2025-08-02 15:01:56,016 - __main__ - INFO -    Config File: fastagent.config.yaml
+2025-08-02 15:01:56,016 - __main__ - INFO -    API Key: Set in environment or Odoo settings
+2025-08-02 15:01:56,019 - __main__ - INFO - 
+2025-08-02 15:01:56,020 - __main__ - INFO - Usage Instructions:
+2025-08-02 15:01:56,020 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-02 15:01:56,021 - __main__ - INFO -    2. Login to Odoo
+2025-08-02 15:01:56,021 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-02 15:01:56,021 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-02 15:01:56,022 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-02 15:01:56,022 - __main__ - INFO - 
+2025-08-02 15:01:56,023 - __main__ - INFO - To stop the system: Press Ctrl+C
+2025-08-02 15:01:56,023 - __main__ - INFO - Logs are saved to: ai_agent_system.log
+2025-08-02 15:01:56,024 - __main__ - INFO - ============================================================
+2025-08-02 15:01:56,024 - __main__ - INFO - Starting process monitoring...
+2025-08-02 15:02:26,028 - __main__ - INFO - System Status Check:
+2025-08-02 15:02:26,029 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:02:26,030 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:02:56,032 - __main__ - INFO - System Status Check:
+2025-08-02 15:02:56,032 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:02:56,032 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:03:26,033 - __main__ - INFO - System Status Check:
+2025-08-02 15:03:26,034 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:03:26,035 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:03:56,038 - __main__ - INFO - System Status Check:
+2025-08-02 15:03:56,038 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:03:56,039 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:04:26,040 - __main__ - INFO - System Status Check:
+2025-08-02 15:04:26,043 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:04:26,044 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:04:56,046 - __main__ - INFO - System Status Check:
+2025-08-02 15:04:56,047 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:04:56,047 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:05:26,049 - __main__ - INFO - System Status Check:
+2025-08-02 15:05:26,049 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:05:26,050 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:05:56,051 - __main__ - INFO - System Status Check:
+2025-08-02 15:05:56,052 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:05:56,052 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:06:26,053 - __main__ - INFO - System Status Check:
+2025-08-02 15:06:26,054 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:06:26,055 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:06:56,056 - __main__ - INFO - System Status Check:
+2025-08-02 15:06:56,056 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:06:56,057 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:07:26,059 - __main__ - INFO - System Status Check:
+2025-08-02 15:07:26,060 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:07:26,061 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:07:56,063 - __main__ - INFO - System Status Check:
+2025-08-02 15:07:56,064 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:07:56,064 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:08:26,072 - __main__ - INFO - System Status Check:
+2025-08-02 15:08:26,073 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:08:26,073 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:08:56,075 - __main__ - INFO - System Status Check:
+2025-08-02 15:08:56,076 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:08:56,077 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:09:26,078 - __main__ - INFO - System Status Check:
+2025-08-02 15:09:26,079 - __main__ - INFO -    MCP Server: Running (PID: 19784)
+2025-08-02 15:09:26,079 - __main__ - INFO -    Odoo: Running (PID: 15020)
+2025-08-02 15:09:32,800 - __main__ - INFO - Received shutdown signal, stopping all processes...
+2025-08-02 15:09:32,803 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:09:32,805 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:09:32,820 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:09:32,822 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:09:32,852 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:09:32,855 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:09:32,857 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:09:32,858 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:09:32,859 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:09:32,865 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:09:32,866 - __main__ - INFO - System shutdown complete
+2025-08-02 15:17:34,299 - __main__ - INFO - AI Odoo Agent System Launcher
+2025-08-02 15:17:34,300 - __main__ - INFO - ============================================================
+2025-08-02 15:17:34,300 - __main__ - INFO - Python Version: 3.12.0
+2025-08-02 15:17:34,300 - __main__ - INFO - Working Directory: D:\ERPProject\odoo17\addons\ai_odoo_agent
+2025-08-02 15:17:34,300 - __main__ - INFO - Starting AI Odoo Agent System...
+2025-08-02 15:17:34,301 - __main__ - INFO - ============================================================
+2025-08-02 15:17:34,301 - __main__ - INFO - Step 1: Starting MCP Server...
+2025-08-02 15:17:34,301 - __main__ - INFO - Starting MCP Server (stdio transport)...
+2025-08-02 15:17:37,309 - __main__ - INFO - MCP Server started successfully (stdio transport)
+2025-08-02 15:17:37,309 - __main__ - INFO - Step 2: Starting Odoo Server...
+2025-08-02 15:17:37,309 - __main__ - INFO - Starting Odoo Server...
+2025-08-02 15:17:37,324 - __main__ - INFO - Waiting for Odoo to start...
+2025-08-02 15:17:47,327 - __main__ - INFO - Odoo Server started successfully
+2025-08-02 15:17:47,328 - __main__ - INFO - ============================================================
+2025-08-02 15:17:47,329 - __main__ - INFO - AI Odoo Agent System Started Successfully!
+2025-08-02 15:17:47,330 - __main__ - INFO - ============================================================
+2025-08-02 15:17:47,330 - __main__ - INFO - System Status:
+2025-08-02 15:17:47,331 - __main__ - INFO -    MCP Server: Running on stdio transport
+2025-08-02 15:17:47,331 - __main__ - INFO -    Odoo Server: Running on http://localhost:8069
+2025-08-02 15:17:47,331 - __main__ - INFO - 
+2025-08-02 15:17:47,337 - __main__ - INFO - Access Information:
+2025-08-02 15:17:47,338 - __main__ - INFO -    Odoo Web Interface: http://localhost:8069
+2025-08-02 15:17:47,338 - __main__ - INFO -    AI Assistant: Available in Odoo menu
+2025-08-02 15:17:47,339 - __main__ - INFO -    MCP Server: Running in background
+2025-08-02 15:17:47,339 - __main__ - INFO - 
+2025-08-02 15:17:47,340 - __main__ - INFO - Configuration:
+2025-08-02 15:17:47,340 - __main__ - INFO -    Module Location: odoo17/addons/ai_odoo_agent
+2025-08-02 15:17:47,340 - __main__ - INFO -    Config File: fastagent.config.yaml
+2025-08-02 15:17:47,341 - __main__ - INFO -    API Key: Set in environment or Odoo settings
+2025-08-02 15:17:47,341 - __main__ - INFO - 
+2025-08-02 15:17:47,342 - __main__ - INFO - Usage Instructions:
+2025-08-02 15:17:47,343 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-02 15:17:47,348 - __main__ - INFO -    2. Login to Odoo
+2025-08-02 15:17:47,348 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-02 15:17:47,349 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-02 15:17:47,349 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-02 15:17:47,350 - __main__ - INFO - 
+2025-08-02 15:17:47,350 - __main__ - INFO - To stop the system: Press Ctrl+C
+2025-08-02 15:17:47,351 - __main__ - INFO - Logs are saved to: ai_agent_system.log
+2025-08-02 15:17:47,351 - __main__ - INFO - ============================================================
+2025-08-02 15:17:47,351 - __main__ - INFO - Starting process monitoring...
+2025-08-02 15:18:17,353 - __main__ - INFO - System Status Check:
+2025-08-02 15:18:17,355 - __main__ - INFO -    MCP Server: Running (PID: 25608)
+2025-08-02 15:18:17,356 - __main__ - INFO -    Odoo: Running (PID: 9676)
+2025-08-02 15:18:47,358 - __main__ - INFO - System Status Check:
+2025-08-02 15:18:47,361 - __main__ - INFO -    MCP Server: Running (PID: 25608)
+2025-08-02 15:18:47,362 - __main__ - INFO -    Odoo: Running (PID: 9676)
+2025-08-02 15:19:17,365 - __main__ - INFO - System Status Check:
+2025-08-02 15:19:17,365 - __main__ - INFO -    MCP Server: Running (PID: 25608)
+2025-08-02 15:19:17,365 - __main__ - INFO -    Odoo: Running (PID: 9676)
+2025-08-02 15:19:25,555 - __main__ - INFO - Received shutdown signal, stopping all processes...
+2025-08-02 15:19:25,555 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:19:25,557 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:19:25,575 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:19:25,581 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:19:25,634 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:19:25,635 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:19:25,636 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:19:25,637 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:19:25,638 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:19:25,639 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:19:25,640 - __main__ - INFO - System shutdown complete
+2025-08-02 15:22:48,255 - __main__ - INFO - AI Odoo Agent System Launcher
+2025-08-02 15:22:48,255 - __main__ - INFO - ============================================================
+2025-08-02 15:22:48,255 - __main__ - INFO - Python Version: 3.12.0
+2025-08-02 15:22:48,256 - __main__ - INFO - Working Directory: D:\ERPProject\odoo17\addons\ai_odoo_agent
+2025-08-02 15:22:48,256 - __main__ - INFO - Starting AI Odoo Agent System...
+2025-08-02 15:22:48,256 - __main__ - INFO - ============================================================
+2025-08-02 15:22:48,256 - __main__ - INFO - Step 0: Checking system dependencies...
+2025-08-02 15:22:48,257 - __main__ - WARNING - Odoo Python module not found in current environment
+2025-08-02 15:22:48,257 - __main__ - INFO - This might be normal if running from external script
+2025-08-02 15:22:48,257 - __main__ - INFO - Step 1: Starting MCP Server...
+2025-08-02 15:22:48,257 - __main__ - INFO - Starting MCP Server (stdio transport)...
+2025-08-02 15:22:51,267 - __main__ - INFO - MCP Server started successfully (stdio transport)
+2025-08-02 15:22:51,268 - __main__ - INFO - Step 2: Starting Odoo Server...
+2025-08-02 15:22:51,268 - __main__ - INFO - Starting Odoo Server...
+2025-08-02 15:22:51,276 - __main__ - INFO - Changed working directory to: D:\ERPProject\odoo17
+2025-08-02 15:22:51,280 - __main__ - INFO - Starting Odoo with command: C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe D:\ERPProject\odoo17\odoo-bin -c D:\ERPProject\odoo17\odoo.conf
+2025-08-02 15:22:51,294 - __main__ - INFO - Waiting for Odoo to start...
+2025-08-02 15:23:06,295 - __main__ - INFO - Odoo Server started successfully
+2025-08-02 15:23:06,298 - __main__ - INFO - ============================================================
+2025-08-02 15:23:06,299 - __main__ - INFO - AI Odoo Agent System Started Successfully!
+2025-08-02 15:23:06,299 - __main__ - INFO - ============================================================
+2025-08-02 15:23:06,300 - __main__ - INFO - System Status:
+2025-08-02 15:23:06,301 - __main__ - INFO -    MCP Server: Running on stdio transport
+2025-08-02 15:23:06,307 - __main__ - INFO -    Odoo Server: Running on http://localhost:8069
+2025-08-02 15:23:06,309 - __main__ - INFO - 
+2025-08-02 15:23:06,309 - __main__ - INFO - Access Information:
+2025-08-02 15:23:06,310 - __main__ - INFO -    Odoo Web Interface: http://localhost:8069
+2025-08-02 15:23:06,310 - __main__ - INFO -    AI Assistant: Available in Odoo menu
+2025-08-02 15:23:06,311 - __main__ - INFO - 
+2025-08-02 15:23:06,311 - __main__ - INFO - Configuration:
+2025-08-02 15:23:06,312 - __main__ - INFO -    Module Location: odoo17/addons/ai_odoo_agent
+2025-08-02 15:23:06,316 - __main__ - INFO -    Config File: fastagent.config.yaml
+2025-08-02 15:23:06,319 - __main__ - INFO -    API Key: Set in environment or Odoo settings
+2025-08-02 15:23:06,320 - __main__ - INFO - 
+2025-08-02 15:23:06,320 - __main__ - INFO - Usage Instructions:
+2025-08-02 15:23:06,321 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-02 15:23:06,321 - __main__ - INFO -    2. Login to Odoo
+2025-08-02 15:23:06,324 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-02 15:23:06,325 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-02 15:23:06,326 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-02 15:23:06,327 - __main__ - INFO - 
+2025-08-02 15:23:06,327 - __main__ - INFO - To stop the system: Press Ctrl+C
+2025-08-02 15:23:06,327 - __main__ - INFO - Logs are saved to: ai_agent_system.log
+2025-08-02 15:23:06,328 - __main__ - INFO - ============================================================
+2025-08-02 15:23:06,328 - __main__ - INFO - Starting process monitoring...
+2025-08-02 15:23:36,329 - __main__ - INFO - System Status Check:
+2025-08-02 15:23:36,330 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:23:36,331 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:24:06,333 - __main__ - INFO - System Status Check:
+2025-08-02 15:24:06,333 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:24:06,334 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:24:36,334 - __main__ - INFO - System Status Check:
+2025-08-02 15:24:36,334 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:24:36,335 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:25:06,336 - __main__ - INFO - System Status Check:
+2025-08-02 15:25:06,337 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:25:06,339 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:25:36,341 - __main__ - INFO - System Status Check:
+2025-08-02 15:25:36,342 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:25:36,342 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:26:06,344 - __main__ - INFO - System Status Check:
+2025-08-02 15:26:06,346 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:26:06,347 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:26:36,348 - __main__ - INFO - System Status Check:
+2025-08-02 15:26:36,349 - __main__ - INFO -    MCP Server: Running (PID: 7972)
+2025-08-02 15:26:36,350 - __main__ - INFO -    Odoo: Running (PID: 18748)
+2025-08-02 15:26:49,124 - __main__ - INFO - Received shutdown signal, stopping all processes...
+2025-08-02 15:26:49,124 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:26:49,124 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:26:49,141 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:26:49,141 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:26:49,179 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:26:49,179 - __main__ - INFO - Stopping all processes...
+2025-08-02 15:26:49,180 - __main__ - INFO - Stopping MCP Server...
+2025-08-02 15:26:49,180 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-02 15:26:49,180 - __main__ - INFO - Stopping Odoo...
+2025-08-02 15:26:49,180 - __main__ - INFO - Odoo stopped gracefully
+2025-08-02 15:26:49,181 - __main__ - INFO - System shutdown complete
+2025-08-04 11:21:17,283 - __main__ - INFO - AI Odoo Agent System Launcher
+2025-08-04 11:21:17,284 - __main__ - INFO - ============================================================
+2025-08-04 11:21:17,284 - __main__ - INFO - Python Version: 3.12.0
+2025-08-04 11:21:17,285 - __main__ - INFO - Working Directory: D:\ERPProject\odoo17\addons\ai_odoo_agent
+2025-08-04 11:21:17,286 - __main__ - INFO - Starting AI Odoo Agent System...
+2025-08-04 11:21:17,286 - __main__ - INFO - ============================================================
+2025-08-04 11:21:17,287 - __main__ - INFO - Step 0: Checking system dependencies...
+2025-08-04 11:21:17,288 - __main__ - WARNING - Odoo Python module not found in current environment
+2025-08-04 11:21:17,289 - __main__ - INFO - This might be normal if running from external script
+2025-08-04 11:21:17,289 - __main__ - INFO - Step 1: Starting MCP Server...
+2025-08-04 11:21:17,289 - __main__ - INFO - Starting MCP Server (stdio transport)...
+2025-08-04 11:21:20,306 - __main__ - INFO - MCP Server started successfully (stdio transport)
+2025-08-04 11:21:20,307 - __main__ - INFO - Step 2: Starting Odoo Server...
+2025-08-04 11:21:20,307 - __main__ - INFO - Starting Odoo Server...
+2025-08-04 11:21:20,316 - __main__ - INFO - Changed working directory to: D:\ERPProject\odoo17
+2025-08-04 11:21:20,317 - __main__ - INFO - Starting Odoo with command: C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe D:\ERPProject\odoo17\odoo-bin -c D:\ERPProject\odoo17\odoo.conf
+2025-08-04 11:21:20,331 - __main__ - INFO - Waiting for Odoo to start...
+2025-08-04 11:21:35,333 - __main__ - INFO - Odoo Server started successfully
+2025-08-04 11:21:35,334 - __main__ - INFO - ============================================================
+2025-08-04 11:21:35,334 - __main__ - INFO - AI Odoo Agent System Started Successfully!
+2025-08-04 11:21:35,334 - __main__ - INFO - ============================================================
+2025-08-04 11:21:35,334 - __main__ - INFO - System Status:
+2025-08-04 11:21:35,334 - __main__ - INFO -    MCP Server: Running on stdio transport
+2025-08-04 11:21:35,335 - __main__ - INFO -    Odoo Server: Running on http://localhost:8069
+2025-08-04 11:21:35,335 - __main__ - INFO - 
+2025-08-04 11:21:35,335 - __main__ - INFO - Access Information:
+2025-08-04 11:21:35,335 - __main__ - INFO -    Odoo Web Interface: http://localhost:8069
+2025-08-04 11:21:35,336 - __main__ - INFO -    AI Assistant: Available in Odoo menu
+2025-08-04 11:21:35,336 - __main__ - INFO - 
+2025-08-04 11:21:35,336 - __main__ - INFO - Configuration:
+2025-08-04 11:21:35,336 - __main__ - INFO -    Module Location: odoo17/addons/ai_odoo_agent
+2025-08-04 11:21:35,336 - __main__ - INFO -    Config File: fastagent.config.yaml
+2025-08-04 11:21:35,337 - __main__ - INFO -    API Key: Set in environment or Odoo settings
+2025-08-04 11:21:35,337 - __main__ - INFO - 
+2025-08-04 11:21:35,338 - __main__ - INFO - Usage Instructions:
+2025-08-04 11:21:35,338 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-04 11:21:35,338 - __main__ - INFO -    2. Login to Odoo
+2025-08-04 11:21:35,338 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-04 11:21:35,338 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-04 11:21:35,338 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-04 11:21:35,338 - __main__ - INFO - 
+2025-08-04 11:21:35,339 - __main__ - INFO - To stop the system: Press Ctrl+C
+2025-08-04 11:21:35,339 - __main__ - INFO - Logs are saved to: ai_agent_system.log
+2025-08-04 11:21:35,339 - __main__ - INFO - ============================================================
+2025-08-04 11:21:35,339 - __main__ - INFO - Starting process monitoring...
+2025-08-04 11:22:05,340 - __main__ - INFO - System Status Check:
+2025-08-04 11:22:05,340 - __main__ - INFO -    MCP Server: Running (PID: 20308)
+2025-08-04 11:22:05,341 - __main__ - INFO -    Odoo: Running (PID: 30448)
+2025-08-04 11:22:16,729 - __main__ - INFO - Received shutdown signal, stopping all processes...
+2025-08-04 11:22:16,730 - __main__ - INFO - Stopping all processes...
+2025-08-04 11:22:16,731 - __main__ - INFO - Stopping MCP Server...
+2025-08-04 11:22:16,744 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-04 11:22:16,745 - __main__ - INFO - Stopping Odoo...
+2025-08-04 11:22:16,793 - __main__ - INFO - Odoo stopped gracefully
+2025-08-04 11:22:16,793 - __main__ - INFO - Stopping all processes...
+2025-08-04 11:22:16,793 - __main__ - INFO - Stopping MCP Server...
+2025-08-04 11:22:16,794 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-04 11:22:16,794 - __main__ - INFO - Stopping Odoo...
+2025-08-04 11:22:16,794 - __main__ - INFO - Odoo stopped gracefully
+2025-08-04 11:22:16,795 - __main__ - INFO - System shutdown complete
+2025-08-04 16:27:15,369 - __main__ - INFO - AI Odoo Agent System Launcher
+2025-08-04 16:27:15,370 - __main__ - INFO - ============================================================
+2025-08-04 16:27:15,370 - __main__ - INFO - Python Version: 3.12.0
+2025-08-04 16:27:15,370 - __main__ - INFO - Working Directory: D:\ERPProject\odoo17\addons\ai_odoo_agent
+2025-08-04 16:27:15,370 - __main__ - INFO - Starting AI Odoo Agent System...
+2025-08-04 16:27:15,371 - __main__ - INFO - ============================================================
+2025-08-04 16:27:15,371 - __main__ - INFO - Step 0: Checking system dependencies...
+2025-08-04 16:27:15,372 - __main__ - WARNING - Odoo Python module not found in current environment
+2025-08-04 16:27:15,372 - __main__ - INFO - This might be normal if running from external script
+2025-08-04 16:27:15,373 - __main__ - INFO - Step 1: Starting MCP Server...
+2025-08-04 16:27:15,373 - __main__ - INFO - Starting MCP Server (stdio transport)...
+2025-08-04 16:27:18,383 - __main__ - INFO - MCP Server started successfully (stdio transport)
+2025-08-04 16:27:18,384 - __main__ - INFO - Step 2: Starting Odoo Server...
+2025-08-04 16:27:18,384 - __main__ - INFO - Starting Odoo Server...
+2025-08-04 16:27:18,396 - __main__ - INFO - Changed working directory to: D:\ERPProject\odoo17
+2025-08-04 16:27:18,397 - __main__ - INFO - Starting Odoo with command: C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe D:\ERPProject\odoo17\odoo-bin -c D:\ERPProject\odoo17\odoo.conf
+2025-08-04 16:27:18,407 - __main__ - INFO - Waiting for Odoo to start...
+2025-08-04 16:27:33,408 - __main__ - INFO - Odoo Server started successfully
+2025-08-04 16:27:33,408 - __main__ - INFO - ============================================================
+2025-08-04 16:27:33,409 - __main__ - INFO - AI Odoo Agent System Started Successfully!
+2025-08-04 16:27:33,409 - __main__ - INFO - ============================================================
+2025-08-04 16:27:33,410 - __main__ - INFO - System Status:
+2025-08-04 16:27:33,410 - __main__ - INFO -    MCP Server: Running on stdio transport
+2025-08-04 16:27:33,410 - __main__ - INFO -    Odoo Server: Running on http://localhost:8069
+2025-08-04 16:27:33,411 - __main__ - INFO - 
+2025-08-04 16:27:33,411 - __main__ - INFO - Access Information:
+2025-08-04 16:27:33,412 - __main__ - INFO -    Odoo Web Interface: http://localhost:8069
+2025-08-04 16:27:33,412 - __main__ - INFO -    AI Assistant: Available in Odoo menu
+2025-08-04 16:27:33,414 - __main__ - INFO - 
+2025-08-04 16:27:33,414 - __main__ - INFO - Configuration:
+2025-08-04 16:27:33,414 - __main__ - INFO -    Module Location: odoo17/addons/ai_odoo_agent
+2025-08-04 16:27:33,414 - __main__ - INFO -    Config File: fastagent.config.yaml
+2025-08-04 16:27:33,415 - __main__ - INFO -    API Key: Set in environment or Odoo settings
+2025-08-04 16:27:33,416 - __main__ - INFO - 
+2025-08-04 16:27:33,417 - __main__ - INFO - Usage Instructions:
+2025-08-04 16:27:33,418 - __main__ - INFO -    1. Open browser and go to http://localhost:8069
+2025-08-04 16:27:33,418 - __main__ - INFO -    2. Login to Odoo
+2025-08-04 16:27:33,418 - __main__ - INFO -    3. Go to Apps > Update Apps List
+2025-08-04 16:27:33,418 - __main__ - INFO -    4. Install 'AI Odoo Agent' module
+2025-08-04 16:27:33,418 - __main__ - INFO -    5. Access AI Assistant from menu
+2025-08-04 16:27:33,419 - __main__ - INFO - 
+2025-08-04 16:27:33,419 - __main__ - INFO - To stop the system: Press Ctrl+C
+2025-08-04 16:27:33,419 - __main__ - INFO - Logs are saved to: ai_agent_system.log
+2025-08-04 16:27:33,420 - __main__ - INFO - ============================================================
+2025-08-04 16:27:33,420 - __main__ - INFO - Starting process monitoring...
+2025-08-04 16:28:03,422 - __main__ - INFO - System Status Check:
+2025-08-04 16:28:03,423 - __main__ - INFO -    MCP Server: Running (PID: 26048)
+2025-08-04 16:28:03,424 - __main__ - INFO -    Odoo: Running (PID: 35892)
+2025-08-04 16:28:33,427 - __main__ - INFO - System Status Check:
+2025-08-04 16:28:33,430 - __main__ - INFO -    MCP Server: Running (PID: 26048)
+2025-08-04 16:28:33,431 - __main__ - INFO -    Odoo: Running (PID: 35892)
+2025-08-04 16:28:42,992 - __main__ - INFO - Received shutdown signal, stopping all processes...
+2025-08-04 16:28:42,993 - __main__ - INFO - Stopping all processes...
+2025-08-04 16:28:42,993 - __main__ - INFO - Stopping MCP Server...
+2025-08-04 16:28:43,003 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-04 16:28:43,005 - __main__ - INFO - Stopping Odoo...
+2025-08-04 16:28:43,025 - __main__ - INFO - Odoo stopped gracefully
+2025-08-04 16:28:43,025 - __main__ - INFO - Stopping all processes...
+2025-08-04 16:28:43,026 - __main__ - INFO - Stopping MCP Server...
+2025-08-04 16:28:43,026 - __main__ - INFO - MCP Server stopped gracefully
+2025-08-04 16:28:43,027 - __main__ - INFO - Stopping Odoo...
+2025-08-04 16:28:43,027 - __main__ - INFO - Odoo stopped gracefully
+2025-08-04 16:28:43,028 - __main__ - INFO - System shutdown complete

@@ -1,0 +1,9 @@
+<odoo>
+  <template id="ai_agent_widget">
+    <div class="ai-agent-container">
+      <div class="ai-conversation-log"/>
+      <textarea t-att-placeholder="widget.placeholder"/>
+      <button type="button" class="btn btn-primary">Send</button>
+    </div>
+  </template>
+</odoo>

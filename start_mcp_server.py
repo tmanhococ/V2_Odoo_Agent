@@ -27,28 +27,36 @@ def main():
     """Start the MCP server"""
     logger.info("🚀 Starting MCP Server for AI Odoo Agent...")
     
-    # Register signal handlers
-    signal.signal(signal.SIGINT, signal_handler)
-    signal.signal(signal.SIGTERM, signal_handler)
+    # Register signal handlers for Windows
+    try:
+        signal.signal(signal.SIGINT, signal_handler)
+        # SIGTERM may not be available on Windows
+        if hasattr(signal, 'SIGTERM'):
+            signal.signal(signal.SIGTERM, signal_handler)
+    except AttributeError:
+        # Handle Windows compatibility
+        pass
     
     try:
         # Import and start MCP server
         from mcp_server.odoo_mcp_server import run_server
         
         logger.info("✓ MCP server imported successfully")
-        logger.info("🌐 Starting server on http://127.0.0.1:8000")
-        logger.info("📝 Press Ctrl+C to stop the server")
+        logger.info("📡 Starting server with stdio transport")
+        logger.info("📝 Server is ready to receive requests via stdin/stdout")
+        logger.info("🛑 Press Ctrl+C to stop the server")
         
-        # Start the server
-        run_server(transport="http", host="127.0.0.1", port=8000)
+        # Start the server with stdio transport
+        run_server(transport="stdio")
         
     except ImportError as e:
         logger.error(f"✗ Failed to import MCP server: {e}")
-        logger.error("Make sure all dependencies are installed")
+        logger.error("Make sure all dependencies are installed:")
+        logger.error("pip install mcp==1.12.1")
         sys.exit(1)
     except Exception as e:
         logger.error(f"✗ Failed to start MCP server: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
-    main() 
+    main()

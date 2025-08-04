@@ -76,8 +76,14 @@ class AIAgentWizard(models.TransientModel):
             return f"Sorry, I encountered an error: {str(e)}"
         finally:
             # Clean up the event loop
-            loop.close()
-            asyncio.set_event_loop(None)
+            try:
+                loop.close()
+            except:
+                pass
+            try:
+                asyncio.set_event_loop(None)
+            except:
+                pass
     
     async def _call_agent_async(self, message: str) -> str:
         """
@@ -103,7 +109,8 @@ class AIAgentWizard(models.TransientModel):
             # Run the agent
             return await main()
             
-        except ImportError:
+        except ImportError as e:
+            _logger.warning(f"Fast-Agent not available: {e}")
             # Fallback to direct API call if Fast-Agent is not available
             return await self._call_anthropic_direct(message)
         except Exception as e:
@@ -154,6 +161,8 @@ class AIAgentWizard(models.TransientModel):
                 else:
                     return f"Error calling Anthropic API: {response.status_code}"
                     
+        except ImportError:
+            return "Error: httpx library not installed. Please install it with: pip install httpx"
         except Exception as e:
             _logger.error(f"Error in direct API call: {e}")
             return f"Sorry, I encountered an error: {str(e)}"
@@ -166,7 +175,7 @@ class AIAgentWizard(models.TransientModel):
         self.assistant_response = ""
         return {
             "type": "ir.actions.act_window",
-            "res_model": "ai.agent.wizard",
+            "res_model": "ai.agent.wizard", 
             "view_mode": "form",
             "res_id": self.id,
             "target": "new",
@@ -178,11 +187,13 @@ class AIAgentConfiguration(models.Model):
     """
     _name = "ai.agent.config"
     _description = "AI Agent Configuration"
+    _rec_name = 'name'
     
-    name = fields.Char("Name", required=True)
-    anthropic_api_key = fields.Char("Anthropic API Key", required=True)
+    name = fields.Char("Name", required=True, default="Default AI Agent Config")
+    anthropic_api_key = fields.Char("Anthropic API Key")
     mcp_server_url = fields.Char("MCP Server URL", default="http://127.0.0.1:8000")
     is_active = fields.Boolean("Active", default=True)
+    created_date = fields.Datetime("Created Date", default=fields.Datetime.now)
     
     @api.model
     def get_active_config(self):
@@ -207,5 +218,22 @@ class AIAgentConfiguration(models.Model):
                 else:
                     raise UserError(f"Connection failed: {response.status_code}")
                     
+        except ImportError:
+            raise UserError("Error: httpx library not installed. Please install it with: pip install httpx")
         except Exception as e:
-            raise UserError(f"Connection test failed: {str(e)}") 
+            raise UserError(f"Connection test failed: {str(e)}")
+    
+    @api.model
+    def create(self, vals):
+        """Override create to ensure only one active config"""
+        if vals.get('is_active'):
+            # Deactivate all other configs
+            self.search([('is_active', '=', True)]).write({'is_active': False})
+        return super().create(vals)
+    
+    def write(self, vals):
+        """Override write to ensure only one active config"""
+        if vals.get('is_active'):
+            # Deactivate all other configs
+            self.search([('is_active', '=', True), ('id', '!=', self.id)]).write({'is_active': False})
+        return super().write(vals)
